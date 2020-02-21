@@ -1,2 +1,15 @@
 {
+	"name": "Example Timer",
+	"author": "Joel Fischer",
+	"steps": [{
+			"name": "Step 1",
+			"length": "5:00",
+			"pauseOnFinish": false
+		},
+		{
+			"name": "Step 2",
+			"length": "1:20",
+			"pauseOnFinish": false
+		}
+	]
 }
