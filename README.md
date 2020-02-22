@@ -3,14 +3,12 @@ JSON data for Ding Timer Templates
 
 ## JSON Format
 
-### Folders
-Each folder corresponds with a "category" of timer. These are hard-coded into the app, so adding a new one requires an app update. If you're making a PR with a new template, make your best guess as to the category, but follow the maintainer's direction if the category should be changed.
-
 ### Template Information
 The JSON data for a template includes the following data:
 
 * `name: String`- **Required**
 * `author: String` - **Optional**
+* `category: String` - **Required**
 * `steps: Array of TimerSteps` - **Required**
 
 A step contains the following information:
@@ -38,3 +36,8 @@ A step contains the following information:
 	]
 }
 ```
+
+### Categories
+The list of categories is currently as follows:
+* "Food"
+* "Utilities"
