@@ -24,6 +24,7 @@ A step contains the following information:
 {
 	"name": "Example Timer",
 	"author": "Joel Fischer",
+	"category": "Food",
 	"steps": [{
 			"name": "Step 1",
 			"length": "5:00",
