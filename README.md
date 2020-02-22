@@ -14,7 +14,7 @@ The JSON data for a template includes the following data:
 A step contains the following information:
 
 * `name: String` - **Required** - does not have to be unique
-* `length: String - form of hour:min:sec` - **Required**
+* `length: String - form of HH:mm:ss` - **Required** - See RFC 3339
 * `pauseOnFinish: Bool`- **Required** - the last step's value will be ignored
 
 #### Example
