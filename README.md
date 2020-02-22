@@ -6,14 +6,14 @@ JSON data for Ding Timer Templates
 ### Template Information
 The JSON data for a template includes the following data:
 
-* `name: String`- **Required**
+* `name: String`- **Required** - must be unique
 * `author: String` - **Optional**
-* `category: String` - **Required**
-* `steps: Array of TimerSteps` - **Required**
+* `category: String` - **Required** - should be one of the existing categories noted below.
+* `steps: Array of TimerSteps` - **Required** - must be in the correct order
 
 A step contains the following information:
 
-* `name: String` - **Required**
+* `name: String` - **Required** - does not have to be unique
 * `length: String - form of hour:min:sec` - **Required**
 * `pauseOnFinish: Bool`- **Required** - the last step's value will be ignored
 
@@ -40,4 +40,5 @@ A step contains the following information:
 ### Categories
 The list of categories is currently as follows:
 * "Food"
+* "Household"
 * "Utilities"
