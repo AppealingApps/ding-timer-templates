@@ -22,22 +22,22 @@ A step contains the following information:
 {
 	"name": {
 		"en-us": "Example Timer"
-	}
+	},
 	"author": "Joel Fischer",
 	"category": {
 		"en-us": "Food"
-	}
+	},
 	"steps": [{
 			"name": {
 				"en-us": "Step 1"
-			}
+			},
 			"length": "5:00",
 			"pauseOnFinish": false
 		},
 		{
 			"name": {
 				"en-us": "Step 2"
-			}
+			},
 			"length": "1:20",
 			"pauseOnFinish": false
 		}
