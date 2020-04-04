@@ -20,16 +20,24 @@ A step contains the following information:
 #### Example
 ```json
 {
-	"name": "Example Timer",
+	"name": {
+		"en-us": "Example Timer"
+	}
 	"author": "Joel Fischer",
-	"category": "Food",
+	"category": {
+		"en-us": "Food"
+	}
 	"steps": [{
-			"name": "Step 1",
+			"name": {
+				"en-us": "Step 1"
+			}
 			"length": "5:00",
 			"pauseOnFinish": false
 		},
 		{
-			"name": "Step 2",
+			"name": {
+				"en-us": "Step 2"
+			}
 			"length": "1:20",
 			"pauseOnFinish": false
 		}
